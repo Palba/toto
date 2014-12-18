@@ -1,0 +1,96 @@
+table.datagrid {
+    width:100%;
+    text-align: left;
+    margin-top:8px;
+    margin-bottom:8px;
+    font-size:11px;
+}
+
+table.datagrid tr {    
+    border-bottom:1px solid #CECECE;
+}
+
+table.datagrid th, table.datagrid td {
+    padding-bottom:12px;
+    padding-top:6px;
+}
+
+table.datagrid th+th, table.datagrid td+td {
+    padding-left:8px;
+}
+
+table.datagrid th {
+    font-size:1.1em;
+    padding-top:12px;
+    text-transform: uppercase
+}
+
+table.datagrid tr:hover td {
+    background-color:#CECECE;
+}
+
+table.datagrid th a:link, table.datagrid th a:visited {
+    color:#7C7C7C;
+    position:relative;
+}
+
+table.datagrid th a.asc, table.datagrid th a.desc {    
+    border-bottom: 1px solid #E06C4A;
+}
+
+
+table.datagrid th a.tri span {
+    display:block;
+    width:16px;
+    height:16px;
+    text-decoration: none;
+    position:absolute;
+    right:-16px;
+    top:0px;    
+}
+
+table.datagrid a.asc span {
+    background-image: url(../images/tri_asc.png);
+}
+
+table.datagrid a.desc span {
+    background-image: url(../images/tri_desc.png);
+}
+
+table.datagrid tbody tr:nth-child(even){
+    background-color: #F2F3F5;
+}
+
+table.datagrid .cmd_button {
+    border:none;    
+    background-color: #41a4dd;
+    cursor:pointer;
+}
+
+table.datagrid .cmd_button[disabled],
+table.datagrid .cmd_button.orange[disabled] {
+    background-color: #DEDEDE;
+    cursor:default;
+}
+
+table.datagrid .cmd_button.orange {
+    background-color: #E06C4A;
+}
+
+
+table.datagrid .cmd_button img {
+    width:20px;    
+}
+
+table.datagrid td form {
+    display:inline-block;
+}
+
+table.datagrid a:link {
+    color:#484848;    
+    text-decoration: none;
+}
+
+table.datagrid a:visited {
+    color:#484848;
+}

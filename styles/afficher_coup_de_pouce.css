@@ -1,0 +1,47 @@
+h2 {
+    padding-left:20px;
+}
+
+#coup-de-pouce {
+    font-size:16px;
+    color:#7C7C7C;     
+    border-left:1px solid #C8C8C8;
+}
+
+#coup-de-pouce dl > dd {        
+    display:inline-block; 
+    margin-bottom:16px;
+    min-width:300px;
+    max-width: 400px;
+}
+
+#coup-de-pouce dl label {
+
+}
+
+#coup-de-pouce dl > dt {
+    display:inline-block;
+    width:200px;
+    padding-right:20px;
+    text-align:right;
+    vertical-align: top;
+}
+
+#inscrits {
+    padding-left:80px;
+    padding-right:20px;    
+    padding-top:20px;
+}
+
+#coup-de-pouce form button {
+    float: right;
+}
+
+button.btn {        
+    color:white;    
+    font-size: 16px;
+    padding:8px 25px;        
+    text-transform: uppercase;
+    background-color: #D34C24;
+    border: none;
+}

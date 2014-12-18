@@ -1,0 +1,17 @@
+#editer-coup-de-pouce > div.conteneur > fieldset {
+    width:700px;
+    margin-bottom:20px;
+}
+
+#editer-coup-de-pouce select {
+    margin-right:200px;    
+}
+
+#editer-coup-de-pouce label {
+    line-height: 30px;
+}
+
+#editer-coup-de-pouce button {
+    margin-top:20px;
+}
+

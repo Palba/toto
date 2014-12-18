@@ -1,0 +1,58 @@
+#temoignage div.conteneur {
+    text-align: center;
+}
+
+#temoignage p {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 24px;
+    padding-bottom: 48px;
+    color: #888888;
+}
+
+#temoignage p:before {
+    content: url(../images/left-quotes.png);
+    position: relative;
+    top: 10px;
+    right: 5px;
+}
+
+#temoignage p:after {
+    content: url(../images/right-quotes.png);
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+#temoignage p span.signature {
+    position: absolute;
+    bottom: 0px;
+    right: 32px;
+}
+
+#en-vedette {
+    color: #6E6E6E;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#en-vedette h2 {
+    color: #484848;
+    font-weight: normal;
+    font-size: 26px;
+    text-align: left;
+}
+
+#description p {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #8B8B8B;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+}
